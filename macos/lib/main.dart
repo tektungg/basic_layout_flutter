@@ -105,29 +105,29 @@ class MyApp extends StatelessWidget {
     );
 
     return MaterialApp(
-      title: 'Flutter Basic Layout',
+      title: 'Flutter Basic Layout: Ahmed Fathir Syafaat 2241720083',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Rama Pramudhita Bhaskara - 2241720128'),
+          title: const Text('Tugas Praktikum 1'),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(
-                flex: 1,
+              Container(
+                width: MediaQuery.of(context).size.width * 0.35,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Align(
                       alignment: Alignment.center,
                       child: Text(
-                        'Strawberry Pavlova',
+                        'Strawberry Pancakes',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 24,
@@ -138,8 +138,9 @@ class MyApp extends StatelessWidget {
                     ),
                     const SizedBox(height: 8),
                     const Text(
-                      'Pavlova is a merinque-based dessert named after the Russian ballerina Anna Pavlova. '
-                      'Pavlova features a crisp crust and soft, light inside, topped with fruit and whipped cream.',
+                      'Strawberry pancakes are fluffy pancakes topped or filled with fresh strawberries often served with '
+                      'syrup, whipped cream, or powdered sugar. They combine the sweetness of strawberries with the '
+                      'soft texture of pancakes, making a popular breakfast or dessert.',
                       style: TextStyle(fontSize: 15),
                       textAlign: TextAlign.center,
                     ),
@@ -151,8 +152,8 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               const SizedBox(width: 16),
-              Expanded(
-                flex: 1,
+              Container(
+                width: MediaQuery.of(context).size.width * 0.57,
                 child: ResponsiveImage(),
               ),
             ],

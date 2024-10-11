@@ -1,8 +1,8 @@
-Nama    : Rama Pramudhita Bhaskara
+Nama    : Ahmed Fathir Syafaat
 
 Kelas   : TI - 3H
 
-NIM     : 2241720128
+NIM     : 2241720083
 
 ## #06 | Layout dan Navigasi
 
